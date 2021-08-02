@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>BECA ABANDONO ESCOLAR</title>
+</head>
+<body>
+<form action="insertarDatos.php" method="post">
+  <section class="form-register">
+    <h4>BECA ABANDONO ESCOLAR</h4>
+   <input class="controls" type="text" name="nombrea" id="nombre" placeholder="Ingrese su Nombre">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <input class="controls" type="curp" name="curp" id="curp" placeholder="CURP">
+    <input class="controls" type="number" name="promedio" id="promedio" placeholder="Ingrese su promedio">
+      
+      <br><label >Fecha de Nacimiento:</label><br>
+      <input class="controls" type="date" name="fecha" id="fecha">
+      
+      <label >Sexo :</label><br>
+        <select class="controls" name="Sexo" id="Sexo">
+        <option class="controls" value="Masculino">Masculino</option><br>
+        <option class="controls" value="Femenino">Femenino</option><br>
+      </select> <br>
+        
+      <br><label >Nivel Escolar:</label><br>
+      <select class="controls" name="Nivel" id="Nivel">
+        <option class="controls" value="Primaria">Primaria</option><br>
+        <option class="controls" value="Secundaria">Secundaria</option><br>
+        <option class="controls" value="Preparatoria">Preparatoria</option><br>
+        <option class="controls" value="Universidad">Universidad</option><br>
+      </select> <br>
+      
+      <input class="controls" type="text" name="Direccion" id="Direccion" placeholder="Ingrese su direccion">
+      <input class="botons" type="submit" value="Enviar Información">
+      
+  </section>
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>BECA ABANDONO ESCOLAR</title>
+</head>
+<body>
+    <form action="datosTrasporte.php" method="post">
+  <section class="form-register">
+    <h4>BECA ABANDONO ESCOLAR</h4>
+    <input class="controls" type="text" name="nombret" id="nombre" placeholder="Ingrese su Nombre">
+    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+    <input class="controls" type="curp" name="curp" id="curp" placeholder="CURP">
+    <label >Fecha de Nacimiento :</label>
+        <input class="controls" type="date" name="fechaa" id="fechaa"><br>
+      <label >Sexo :</label><br>
+        <select class="controls" name="Sexo" id="Sexo">
+        <option class="controls" value="Masculino">Masculino</option><br>
+        <option class="controls" value="Femenino">Femenino</option><br>
+      </select> <br>
+      
+    <br><label >Nivel Escolar:</label><br>
+        <select class="controls" name="nivel" id="nivel">
+        <option class="controls" value="Primaria">Primaria</option><br>
+        <option class="controls" value="Secundaria">Secundaria</option><br>
+        <option class="controls" value="Preparatoria">Preparatoria</option><br>
+        <option class="controls" value="Universidad">Universidad</option><br>
+      </select>    
+            <br><label >Grado Escolar:</label><br>
+        <select class="controls" name="grado" id="grado">
+        <option class="controls" value="1">1</option><br>
+        <option class="controls" value="2">2</option><br>
+        <option class="controls" value="3">3</option><br>
+        <option class="controls" value="4">4</option><br>
+        <option class="controls" value="5">5</option><br>
+        <option class="controls" value="6">6</option><br>
+            </select>
+        <input class="controls" type="num" name="promedio" id="promedio" required placeholder="Promedio"><br>
+      
+        <input class="controls" type="text" name="domicilio"  required placeholder="Domicilio"><br>
+      
+        <input class="controls" type="text" name="ruta"  required placeholder="Ruta de transporte de tu casa a la escuela"><br>
+    
+    <input class="botons" type="submit" value="Enviar Información">
+    
+  </section>
+    </form>
+</body>
+</html>
